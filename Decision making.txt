@@ -1,0 +1,102 @@
+conditional / Decision statements---> statements that are used to take some decisions or check some conditions
+
+If there is a rain
+I will stay at home
+otherwise
+I will go to the market
+
+
+Types-->
+
+1. If..else
+2. switch case
+3. Ternary operators ? :
+
+1. If..Else
+
+If--->true
+Else-->false
+
+syntax:-->
+
+if(condition)
+{
+statements;
+}
+else
+statement;
+
+
+a=10
+b=6
+
+if(a>b)
+{
+printf("a is greater");
+printf("bye");
+}
+else
+printf("b is greater");
+
+Rules:-->
+
+1. If there is one statement in If or Else block then {} can be dropped
+2. Else block can be dropped
+
+
+Types of If
+
+1. Nested if
+2. Multiple if ---> rarely used
+
+
+1. Nested if--->
+
+if((a>b)&&(a>c))
+printf("a is greater");
+else if((b>a)&&(b>c))
+printf("b is greater");
+else
+printf("c is greater");
+
+2. Multiple If--->
+
+if(a>b)
+{
+if(a>c)
+{
+printf("a is greater");
+}
+}
+else if(b>a)
+{
+if(b>c)
+{
+printf("b is greater");
+}
+}
+else
+printf("c is greater");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
